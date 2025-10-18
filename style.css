@@ -1,0 +1,96 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #ecf0f3;
+    font-family:"Poppins",sans-serif;
+    outline:none;
+
+}
+
+.Container{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#E0F0FF;
+    
+    
+}
+
+
+.Calculator{
+    background-color: #ecf0f3;
+    padding:50px;
+    border-radius:35px;
+    box-shadow:inset 6px 6px 14px #ffffff,
+                     6px 6px 14px rgba(0,0,0,.16);
+    display:grid;
+    grid-template-columns:repeat(4,70px);
+}
+input{
+   grid-column: span 4;
+   height:60px;
+   width:300px;
+   background-color: #ecf0f3;
+               border:none;
+               border-radius: 40px;
+   box-shadow : inset -8px -8px 14px #ffffff,
+                inset 8px 8px 14px rgba(0,0,0,.16);
+               text-align:end;
+               margin:auto;
+               font-size:45px;
+               margin-top: 30px;
+               margin-bottom: 30px;
+               padding:25px;
+               
+
+
+}
+button{
+    height:60px;
+    width:60px;
+    
+    box-shadow: -7px -7px 8px #ffffff,
+                    7px 7px 8px rgba(0,0,0,.16);
+               border:none;
+               border-radius:60%;
+               margin:10px;
+               font-size:20px;
+               padding:10px;
+               text-align: center;
+}
+.equal{
+    width:135px;
+    
+    border-radius:30px;
+    background-color:#00cec9;
+    box-shadow: -7px -7px 13px #ffffff,
+                 7px 7px 13px rgba(0,0,0,.16);
+    
+}
+button.operator{
+    
+   background-color: #74b9ff;
+    border-radius:30px
+    box-shadow: -5px -5px 13px #ffffff,
+                 5px 5px 13px rgba(0,0,0,.16);}
+
+
+button.clear{
+    background:#ff7675;
+    box-shadow: -5px -5px 13px #ffffff,
+                 5px 5px 13px rgba(0,0,0,.16);}
+
+
+
+button:hover{
+    background-color: #e0e0e0;
+    transform:translateY(3px);
+    box-shadow: -5px -5px 13px #ffffff,
+                 5px 5px 13px rgba(0,0,0,.16);}
+
+
+
+
